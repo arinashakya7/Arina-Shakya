@@ -4,6 +4,155 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Sweet Slice Bakery</title>
+	<style>
+
+		/*General styling */
+		body{
+			font-family: Arial;
+			margin: 0;
+			padding: 20px;
+			background-color: lightgoldenrodyellow;
+			color: darkcyan;
+		}
+
+		h1, h2{
+			text-align: center;
+			color: black;
+		}
+
+		p{
+			text-align: center;
+			line-height: 1.6;
+		}
+
+		img{
+			display: list-item;
+			margin: 10px;
+			border-radius: 8px;
+			box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+		}
+
+		/*Navigation styles*/
+		ul {
+			list-style: none;
+			padding: 0px;
+			display: flex;
+			justify-content: center;
+			background-color: lightsteelblue;
+			margin: 0px;	
+		}
+
+		ul li{
+			margin: 0 15px;
+		}
+
+		ul li a{
+			text-decoration: none;
+			color: black;
+			font-weight: bold;
+		}
+		ul li a:hover{
+			text-decoration: underline;
+		}
+
+		/*Section styles*/
+		section{
+			margin: 20px;
+			padding: 20px;
+			border: 1px solid silver;
+			background-color: lightyellow;
+			border-radius: 8px;
+			box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+		}
+
+		/* Service Section Styles */
+		#service ul {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			padding: 0;
+		}
+
+		#service ul li {
+			list-style: none;
+			margin: 20px;
+			text-align: center;
+			flex: 1 1 300px; 
+			max-width: 300px;
+
+		#service ul li img {
+			margin-bottom: 10px;
+			display: list-item;
+		}
+		}
+		
+		/* Form Styles */
+		form {
+			width: 60%;
+			margin: 20px auto; text-align: left;
+			background-color: white;
+			padding: 20px;
+			border-radius: 8px;
+			box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+		}
+			
+		form label {
+			font-weight: bold;
+		}
+			
+		form input, form textarea, form button {
+			width: 100%;
+			padding: 10px;
+			margin: 10px 0;
+			border: 1px solid silver;
+			border-radius: 4px;
+			font-size: 16px;
+		}
+
+		form button {
+			background-color: lightyellow; 
+			color: white; 
+			border: none;
+			cursor: pointer;
+			font-weight: bold;
+
+		form button:hover {
+			background-color: lightyellow;
+			}
+		}
+
+		/* Footer Styles */
+		footer {
+			text-align: center;
+			background-color: darkcyan;
+			padding: 10px 0; 
+			margin-top: 20px;
+		}
+		footer a {
+			text-decoration: none;
+			color: darkgoldenrod;
+		}
+		footer a:hover {
+			text-decoration: underline;
+		}
+
+		/* Responsive Design */
+			@media (max-width: 768px) {
+		ul {
+			flex-direction: column;
+		}
+		
+		#service ul {
+			flex-direction: column;
+			align-items: center;
+		}
+
+		form {
+			width: 90%;
+		}
+
+
+	</style>
 </head>
 <body>
 	<h1>Welcome to Sweet Slice Bakery</h1>
